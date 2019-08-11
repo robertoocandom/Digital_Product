@@ -1,0 +1,30 @@
+@media (max-width: 600px){
+    .products{
+        display: inherit;
+        height: auto;
+    }
+.product{
+    margin-top: auto;
+    padding: 30px;
+}
+.main_section{
+    padding:4%;
+}
+.caracteristic {
+    display: inherit;
+    height: auto;  
+}    
+.section_option{
+width: auto;
+}
+
+.mensiones {
+    display: inherit;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.mension{
+    /* width: 180; */
+}
+
+}

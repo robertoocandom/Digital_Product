@@ -1,0 +1,222 @@
+/* ///////////////Variables //////////////////*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root{
+--green-color:#7ACC2D;
+--white-color: white;
+--gray-color: #43464B;
+/* ///////////Espaciado */
+--space: 10px;
+/* ///////////Tipografia */
+--normal:12px;
+/* ///////////Box Shadow */
+--box: 1px 5px 2px #e6e5e9;
+}
+/* General Estilos */
+
+
+html, body{
+padding: 0;
+margin:0;
+font-size: var(--normal);
+font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    max-width: 900;
+    width: auto;
+    margin: auto;
+    border: solid 0.1px gray;
+}
+
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+ 
+    padding-left: 20px;
+    list-style: none;
+    
+}
+
+nav li a {
+    color: gray;
+    text-decoration: none;
+    }
+
+nav li a:hover{
+    color: var(--white-color);
+}
+
+p, label{
+    font-size: var(--space);
+}
+
+
+/*************** Main section *****************/
+
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+
+.products{
+    background-image: url("../images/curve.png ");
+    /* height: 50px; */
+    background-size: cover;
+    background-position: center top;
+    padding: 10%;
+    display: flex;
+}
+
+.product{
+    padding: 10%;
+    margin-top: -260px;
+
+}
+.product .content{
+    background-color: var(--white-color);
+    padding: var(--space);
+    box-shadow: var(--box);
+    
+}
+
+
+.img_content{
+    text-align: center;
+}
+
+.main_botton{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.main_botton:hover{
+    background-color: #56802f;
+}
+
+.caracteristic{
+    height: 250px;
+    padding: 10%;
+    padding-top: 70px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+     
+}
+
+.section_option {
+   width: 200px;
+   padding: 10px;
+   text-align: center;
+   
+}
+
+.section_otion p{
+    font-size: var(--normal);
+}
+ .section_option h3{
+   padding: 5px;
+ }
+
+ .mensiones{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+   
+ }
+
+ .mension{
+     margin: 15px;
+     box-shadow: var(--box);
+     padding-bottom: 2%;
+ }
+
+ .mension p{
+    padding-left: 15px;
+    padding-right: 15px;
+     
+ }
+ .mension h3{
+    padding-left: 15px;
+    padding-right: 15px; 
+ }
+
+ .mension img{
+    width: 100%;
+}
+.mensiones_title{
+    text-align: center;
+}
+/* venta    */
+
+.modulo_pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+
+.modulo_pago input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+footer{
+background-color: black;
+color: #d0d0d0;
+display: flex;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px;
+height: 50px;
+align-items: center;
+
+}
+
+.mail_contacto a{
+    color: var(--green-color);
+}
+
+
+.col-8 p, h2{
+    text-align: left;
+    /* padding-right: 30px; */
+}
+
+.col-4{
+    text-align: center;
+}
+
+.productos{
+    padding: 30px 50px;
+}
+
+.row{
+    padding: 50px;
+}
